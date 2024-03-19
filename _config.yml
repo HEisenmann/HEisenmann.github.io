@@ -18,9 +18,9 @@ minimal_mistakes_skin    : "contrast" #"default"  "air", "aqua", "contrast", "da
 locale                   : "en"
 title                    : "HEisenmann"
 title_separator          : "-"
-subtitle                 : "A personal website of the mathematican Henrik Eisenmann"
+subtitle                 : "Personal website of the mathematician Henrik Eisenmann"
 name                     : "Henrik Eisenmann"
-description              : "A personal website of the mathematican Henrik Eisenmann."
+description              : "A personal website of the mathematician Henrik Eisenmann."
 url                      : "https://heisenmann.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -290,3 +290,4 @@ defaults:
       comments: # true
       share: true
       related: true
+      show_date: true
