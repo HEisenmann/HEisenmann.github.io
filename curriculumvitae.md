@@ -1,8 +1,10 @@
 ---
-layout: home2
+layout: single
 author_profile: true
 title: Curriculum Vitae
 usemathjax: true
+toc: true
+toc_sticky: true
 ---
 
 ## Postdoc
@@ -16,15 +18,15 @@ at RWTH Aachen.
 
 at MPI MiS Leipzig.
 
-#### Thesis: [Multilinear optimization in low-rank models](https://nbn-resolving.org/urn:nbn:de:bsz:15-qucosa2-832218)
+### Thesis: [Multilinear optimization in low-rank models](https://nbn-resolving.org/urn:nbn:de:bsz:15-qucosa2-832218)
 
 advised by André Uschmajew.
 
 ## Master studies
 
-#### Mathematics MSc.
+### Mathematics MSc.
 
-##### A Jacobi-Davidson Method on the Manifold of Tensors with Fixed TT-Rank.
+#### A Jacobi-Davidson Method on the Manifold of Tensors with Fixed TT-Rank.
 
 advised by Reinhold Schneider.
 
@@ -34,9 +36,9 @@ at TU Berlin.
 
 ## Bachelor studies
 
-#### Mathematics BSc.
+### Mathematics BSc.
 
-##### Dualisierbare Shearlet-Frames in $$\mathbb R^3$$
+#### Dualisierbare Shearlet-Frames in $$\mathbb R^3$$
 
 advised by Gitta Kutyniok.
 
