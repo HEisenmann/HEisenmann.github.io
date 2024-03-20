@@ -37,6 +37,9 @@ at TU Berlin.
 #### Mathematics BSc.
 
 ##### Dualisierbare Shearlet-Frames in $$\mathbb R^3$$
+
+advised by Gitta Kutyniok.
+
 - October 2012 - February 2017 
 
 at TU Berlin.
