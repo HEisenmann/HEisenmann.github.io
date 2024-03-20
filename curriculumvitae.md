@@ -14,6 +14,7 @@ toc_sticky: true
 at RWTH Aachen. 
 
 ## PhD studies
+
 - July 2019 - July 2022
 
 at MPI MiS Leipzig.
@@ -26,22 +27,26 @@ advised by André Uschmajew.
 
 ### Mathematics MSc.
 
-#### A Jacobi-Davidson Method on the Manifold of Tensors with Fixed TT-Rank.
-
-advised by Reinhold Schneider.
-
 - October 2016 - June 2019
 
 at TU Berlin.
+
+#### Master thesis: A Jacobi-Davidson Method on the Manifold of Tensors with Fixed TT-Rank.
+
+advised by Reinhold Schneider.
+
+
 
 ## Bachelor studies
 
 ### Mathematics BSc.
 
-#### Dualisierbare Shearlet-Frames in $$\mathbb R^3$$
-
-advised by Gitta Kutyniok.
-
 - October 2012 - February 2017 
 
 at TU Berlin.
+
+
+#### Bachelor thesis: Dualisierbare Shearlet-Frames in $\mathbb R^3$
+
+advised by Gitta Kutyniok.
+
