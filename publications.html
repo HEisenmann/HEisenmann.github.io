@@ -10,9 +10,9 @@ title: Publications
 {% for pub in publications %}
 {% if {{pub.year}} == 2024 %}
 <div class="pubitem">
-  <div class="pubtitle"><a href="{{pub.link}}" style="color:black; text-decoration:none;">{{ pub.title }}</a> </div>
+  <div class="pubtitle"><a href="{{pub.link}}" >{{ pub.title }}</a> </div>
   <div class="pubauthors">{{ pub.authors }};</div>
-  <div class="pubinfo">{{ pub.journal }}  {{pub.volume}}, {{ pub.year}}.</div>
+  <div class="pubinfo">{{ pub.journal }} {{pub.volume}}, {{ pub.year}}.</div>
 </div>
 {% endif %}
 {% endfor %}
@@ -22,7 +22,7 @@ title: Publications
 {% for pub in publications %}
 {% if {{pub.year}} == 2023 %}
 <div class="pubitem">
-  <div class="pubtitle"><a href="{{pub.link}}" style="color:black; text-decoration:none;">{{ pub.title }}</a> </div>
+  <div class="pubtitle"><a href="{{pub.link}}" >{{ pub.title }}</a> </div>
   <div class="pubauthors">{{ pub.authors }};</div>
   <div class="pubinfo">{{ pub.journal }} {{pub.volume}}, {{ pub.year}}.</div>
 </div>
@@ -34,7 +34,7 @@ title: Publications
 {% for pub in publications %}
 {% if {{pub.year}} == 2022 %}
 <div class="pubitem">
-  <div class="pubtitle"><a href="{{pub.link}}" style="color:black; text-decoration:none;">{{ pub.title }}</a> </div>
+  <div class="pubtitle"><a href="{{pub.link}}" >{{ pub.title }}</a> </div>
   <div class="pubauthors">{{ pub.authors }};</div>
   <div class="pubinfo">{{ pub.journal }} {{pub.volume}}, {{ pub.year}}.</div>
 </div>
@@ -46,9 +46,9 @@ title: Publications
 {% for pub in publications %}
 {% if {{pub.year}} == 2021 %}
 <div class="pubitem">
-  <div class="pubtitle"><a href="{{pub.link}}" style="color:black; text-decoration:none;">{{ pub.title }}</a> </div>
+  <div class="pubtitle"><a href="{{pub.link}}" >{{ pub.title }}</a> </div>
   <div class="pubauthors">{{ pub.authors }};</div>
-  <div class="pubinfo">{{ pub.journal }}  {{pub.volume}}, {{ pub.year}}.</div>
+  <div class="pubinfo">{{ pub.journal }} {{pub.volume}}, {{ pub.year}}.</div>
 </div>
 {% endif %}
 {% endfor %}
