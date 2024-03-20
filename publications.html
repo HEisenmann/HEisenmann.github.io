@@ -1,0 +1,55 @@
+---
+layout: home2
+author_profile: true
+title: Publications
+---
+
+{% assign publications = site.publications | sort: "year" | reverse %}
+
+<h2>2024</h2>
+{% for pub in publications %}
+{% if {{pub.year}} == 2024 %}
+<div class="pubitem">
+  <div class="pubtitle"><a href="{{pub.link}}" style="color:black; text-decoration:none;">{{ pub.title }}</a> </div>
+  <div class="pubauthors">{{ pub.authors }};</div>
+  <div class="pubinfo">{{ pub.journal }}  {{pub.volume}}, {{ pub.year}}.</div>
+</div>
+{% endif %}
+{% endfor %}
+
+
+<h2>2023</h2>
+{% for pub in publications %}
+{% if {{pub.year}} == 2023 %}
+<div class="pubitem">
+  <div class="pubtitle"><a href="{{pub.link}}" style="color:black; text-decoration:none;">{{ pub.title }}</a> </div>
+  <div class="pubauthors">{{ pub.authors }};</div>
+  <div class="pubinfo">{{ pub.journal }} {{pub.volume}}, {{ pub.year}}.</div>
+</div>
+{% endif %}
+{% endfor %}
+
+
+<h2>2022</h2>
+{% for pub in publications %}
+{% if {{pub.year}} == 2022 %}
+<div class="pubitem">
+  <div class="pubtitle"><a href="{{pub.link}}" style="color:black; text-decoration:none;">{{ pub.title }}</a> </div>
+  <div class="pubauthors">{{ pub.authors }};</div>
+  <div class="pubinfo">{{ pub.journal }} {{pub.volume}}, {{ pub.year}}.</div>
+</div>
+{% endif %}
+{% endfor %}
+
+
+<h2>2021</h2>
+{% for pub in publications %}
+{% if {{pub.year}} == 2021 %}
+<div class="pubitem">
+  <div class="pubtitle"><a href="{{pub.link}}" style="color:black; text-decoration:none;">{{ pub.title }}</a> </div>
+  <div class="pubauthors">{{ pub.authors }};</div>
+  <div class="pubinfo">{{ pub.journal }}  {{pub.volume}}, {{ pub.year}}.</div>
+</div>
+{% endif %}
+{% endfor %}
+

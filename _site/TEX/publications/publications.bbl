@@ -1,0 +1,324 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{DynamicalLowRankBEKU}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=d72b907551919bdda1afc1fb186d6a65}{%
+           family={Bachmayr},
+           familyi={B\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e8c2b63670e8d13203531ef57c31c32b}{%
+           family={Eisenmann},
+           familyi={E\bibinitperiod},
+           given={Henrik},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0d1a3481dcfeb54118998ff8e115ed07}{%
+           family={Kieri},
+           familyi={K\bibinitperiod},
+           given={Emil},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e53f3c1d45e7b648cd3975da5ebe3ce8}{%
+           family={Uschmajew},
+           familyi={U\bibinitperiod},
+           given={André},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e6ef94305bfaceac39c0d70bb5e76a19}
+      \strng{fullhash}{e096cc6e100f8e86ab465e012c41ae58}
+      \strng{bibnamehash}{e6ef94305bfaceac39c0d70bb5e76a19}
+      \strng{authorbibnamehash}{e6ef94305bfaceac39c0d70bb5e76a19}
+      \strng{authornamehash}{e6ef94305bfaceac39c0d70bb5e76a19}
+      \strng{authorfullhash}{e096cc6e100f8e86ab465e012c41ae58}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0025-5718,1088-6842}
+      \field{journaltitle}{Math. Comp.}
+      \field{number}{330}
+      \field{title}{Existence of dynamical low-rank approximations to parabolic problems}
+      \field{volume}{90}
+      \field{year}{2021}
+      \field{pages}{1799\bibrangedash 1830}
+      \range{pages}{32}
+      \verb{doi}
+      \verb 10.1090/mcom/3626
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1090/mcom/3626
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1090/mcom/3626
+      \endverb
+    \endentry
+    \entry{GeometriesJordanBE}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=be409331fee8160c633485ef63c8e8be}{%
+           family={Bik},
+           familyi={B\bibinitperiod},
+           given={Arthur},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e8c2b63670e8d13203531ef57c31c32b}{%
+           family={Eisenmann},
+           familyi={E\bibinitperiod},
+           given={Henrik},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{be6a1ce59520647ad5097dca0d2adf4a}
+      \strng{fullhash}{be6a1ce59520647ad5097dca0d2adf4a}
+      \strng{bibnamehash}{be6a1ce59520647ad5097dca0d2adf4a}
+      \strng{authorbibnamehash}{be6a1ce59520647ad5097dca0d2adf4a}
+      \strng{authornamehash}{be6a1ce59520647ad5097dca0d2adf4a}
+      \strng{authorfullhash}{be6a1ce59520647ad5097dca0d2adf4a}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0373-3114,1618-1891}
+      \field{journaltitle}{Ann. Mat. Pura Appl. (4)}
+      \field{number}{5}
+      \field{title}{The geometries of {J}ordan nets and {J}ordan webs}
+      \field{volume}{201}
+      \field{year}{2022}
+      \field{pages}{2413\bibrangedash 2464}
+      \range{pages}{52}
+      \verb{doi}
+      \verb 10.1007/s10231-022-01204-y
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s10231-022-01204-y
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s10231-022-01204-y
+      \endverb
+    \endentry
+    \entry{JordanAlgebrasBES}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=be409331fee8160c633485ef63c8e8be}{%
+           family={Bik},
+           familyi={B\bibinitperiod},
+           given={Arthur},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e8c2b63670e8d13203531ef57c31c32b}{%
+           family={Eisenmann},
+           familyi={E\bibinitperiod},
+           given={Henrik},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1146827b08c62c2c18700dd73b1dc482}{%
+           family={Sturmfels},
+           familyi={S\bibinitperiod},
+           given={Bernd},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{659b54be6f77f2f23a5c2b638740e829}
+      \strng{fullhash}{659b54be6f77f2f23a5c2b638740e829}
+      \strng{bibnamehash}{659b54be6f77f2f23a5c2b638740e829}
+      \strng{authorbibnamehash}{659b54be6f77f2f23a5c2b638740e829}
+      \strng{authornamehash}{659b54be6f77f2f23a5c2b638740e829}
+      \strng{authorfullhash}{659b54be6f77f2f23a5c2b638740e829}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0373-3505,2037-5298}
+      \field{journaltitle}{Matematiche (Catania)}
+      \field{number}{2}
+      \field{title}{Jordan algebras of symmetric matrices}
+      \field{volume}{76}
+      \field{year}{2021}
+      \field{pages}{337\bibrangedash 353}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.4418/2021.76.2.3
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.4418/2021.76.2.3
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.4418/2021.76.2.3
+      \endverb
+    \endentry
+    \entry{RiemannianEKPU}{article}{}
+      \name{author}{4}{ul=2}{%
+        {{un=0,uniquepart=base,hash=e8c2b63670e8d13203531ef57c31c32b}{%
+           family={Eisenmann},
+           familyi={E\bibinitperiod},
+           given={Henrik},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=36b369cf99f799e40cc70505879346de}{%
+           family={Krahmer},
+           familyi={K\bibinitperiod},
+           given={Felix},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c4d0b6db3c42e5d11e442d30bd3088f3}{%
+           family={Pfeffer},
+           familyi={P\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e53f3c1d45e7b648cd3975da5ebe3ce8}{%
+           family={Uschmajew},
+           familyi={U\bibinitperiod},
+           given={André},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dbf1562c6bfb814f677446d5c1e476f3}
+      \strng{fullhash}{a1ceeb39abaa70c16217f15b37b8e9d8}
+      \strng{bibnamehash}{dbf1562c6bfb814f677446d5c1e476f3}
+      \strng{authorbibnamehash}{dbf1562c6bfb814f677446d5c1e476f3}
+      \strng{authornamehash}{dbf1562c6bfb814f677446d5c1e476f3}
+      \strng{authorfullhash}{a1ceeb39abaa70c16217f15b37b8e9d8}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1017-1398,1572-9265}
+      \field{journaltitle}{Numer. Algorithms}
+      \field{number}{2}
+      \field{title}{Riemannian thresholding methods for row-sparse and low-rank matrix recovery}
+      \field{volume}{93}
+      \field{year}{2023}
+      \field{pages}{669\bibrangedash 693}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1007/s11075-022-01433-5
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s11075-022-01433-5
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s11075-022-01433-5
+      \endverb
+    \endentry
+    \entry{TwoParameterEN}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e8c2b63670e8d13203531ef57c31c32b}{%
+           family={Eisenmann},
+           familyi={E\bibinitperiod},
+           given={Henrik},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9f806d779949018f0bac0146fb012718}{%
+           family={Nakatsukasa},
+           familyi={N\bibinitperiod},
+           given={Yuji},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{76633b49d8048b14ba1dc543d1104c2a}
+      \strng{fullhash}{76633b49d8048b14ba1dc543d1104c2a}
+      \strng{bibnamehash}{76633b49d8048b14ba1dc543d1104c2a}
+      \strng{authorbibnamehash}{76633b49d8048b14ba1dc543d1104c2a}
+      \strng{authornamehash}{76633b49d8048b14ba1dc543d1104c2a}
+      \strng{authorfullhash}{76633b49d8048b14ba1dc543d1104c2a}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0024-3795,1873-1856}
+      \field{journaltitle}{Linear Algebra Appl.}
+      \field{title}{Solving two-parameter eigenvalue problems using an alternating method}
+      \field{volume}{643}
+      \field{year}{2022}
+      \field{pages}{137\bibrangedash 160}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1016/j.laa.2022.02.024
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.laa.2022.02.024
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.laa.2022.02.024
+      \endverb
+    \endentry
+    \entry{DistanceEU}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e8c2b63670e8d13203531ef57c31c32b}{%
+           family={Eisenmann},
+           familyi={E\bibinitperiod},
+           given={Henrik},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e53f3c1d45e7b648cd3975da5ebe3ce8}{%
+           family={Uschmajew},
+           familyi={U\bibinitperiod},
+           given={André},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{99a34427639ed8f706e5ee7f903d53ce}
+      \strng{fullhash}{99a34427639ed8f706e5ee7f903d53ce}
+      \strng{bibnamehash}{99a34427639ed8f706e5ee7f903d53ce}
+      \strng{authorbibnamehash}{99a34427639ed8f706e5ee7f903d53ce}
+      \strng{authornamehash}{99a34427639ed8f706e5ee7f903d53ce}
+      \strng{authorfullhash}{99a34427639ed8f706e5ee7f903d53ce}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0373-3114,1618-1891}
+      \field{journaltitle}{Ann. Mat. Pura Appl. (4)}
+      \field{number}{2}
+      \field{title}{Maximum relative distance between real rank-two and rank-one tensors}
+      \field{volume}{202}
+      \field{year}{2023}
+      \field{pages}{993\bibrangedash 1009}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1007/s10231-022-01268-w
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s10231-022-01268-w
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s10231-022-01268-w
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
