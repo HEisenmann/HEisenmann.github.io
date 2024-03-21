@@ -3,6 +3,7 @@ layout: single
 author_profile: true
 title: Publications
 toc: true
+toc_sticky: true
 ---
 
 {% assign publications = site.publications | sort: "year" | reverse %}
