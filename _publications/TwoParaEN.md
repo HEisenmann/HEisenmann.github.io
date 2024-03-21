@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Solving two-parameter eigenvalue problems using an alternating method
+title: 'Solving two-parameter eigenvalue problems using an alternating method'
 authors: Henrik Eisenmann and Yuji Nakatsukasa
 journal: Linear Algebra and its Applications
 volume: 643
