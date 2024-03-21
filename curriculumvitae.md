@@ -7,46 +7,22 @@ toc: true
 toc_sticky: true
 ---
 
-## Postdoc
+{% assign cv = site.cvitems | sort: "year" | reverse %}
 
-- October 2022 - now
+{% for item in cv %}
 
-at RWTH Aachen. 
+## {{ item.title }} 
 
-## PhD studies
-
-- July 2019 - July 2022
-
-at MPI MiS Leipzig.
-
-### Thesis: [Multilinear optimization in low-rank models](https://nbn-resolving.org/urn:nbn:de:bsz:15-qucosa2-832218)
-
-advised by André Uschmajew.
-
-## Master studies
-
-### Mathematics MSc.
-
-- October 2016 - June 2019
-
-at TU Berlin.
-
-#### Master thesis: A Jacobi-Davidson Method on the Manifold of Tensors with Fixed TT-Rank.
-
-advised by Reinhold Schneider.
-
-
-
-## Bachelor studies
-
-### Mathematics BSc.
-
-- October 2012 - February 2017 
-
-at TU Berlin.
-
-
-#### Bachelor thesis: Dualisierbare Shearlet-Frames in $\mathbb R^3$
-
-advised by Gitta Kutyniok.
+<div class="cvitem">
+  <div class="cvtime">{{ item.time }} at {{item.institute}}.</div>
+  {% if item.hasthesis %}
+    {% if item.haslink %}
+        <div class="cvthesis">Thesis: <a href="{{item.link}}" >{{ item.thesis }}</a> </div>
+    {% else %}
+        <div class="cvthesis">Thesis: {{ item.thesis }} </div>
+    {% endif %}
+    <div class="cvadvisor"> advised by {{item.advisor}}. </div>
+  {% endif %}
+</div>
+{% endfor %}
 

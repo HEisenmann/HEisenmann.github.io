@@ -3,6 +3,7 @@ layout: single
 author_profile: true
 title: Publications
 toc: true
+toc_label: published in
 toc_sticky: true
 ---
 

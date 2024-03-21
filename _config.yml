@@ -280,7 +280,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:name
-
+  cvitems:
+    output: true
+    permalink: /:collection/:name
 
 # Defaults
 defaults:

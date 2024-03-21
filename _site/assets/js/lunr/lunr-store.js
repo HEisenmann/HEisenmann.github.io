@@ -1,4 +1,28 @@
 var store = [{
+        "title": "Postdoctoral research",
+        "excerpt":" ","categories": [],
+        "tags": [],
+        "url": "/cvitems/postdoc",
+        "teaser": null
+      },{
+        "title": "Bachelor of Science in Mathematics",
+        "excerpt":" ","categories": [],
+        "tags": [],
+        "url": "/cvitems/bachelor",
+        "teaser": null
+      },{
+        "title": "Master of Science in Mathematics",
+        "excerpt":" ","categories": [],
+        "tags": [],
+        "url": "/cvitems/master",
+        "teaser": null
+      },{
+        "title": "PhD studies",
+        "excerpt":" ","categories": [],
+        "tags": [],
+        "url": "/cvitems/phd",
+        "teaser": null
+      },{
         "title": "Website",
         "excerpt":"Today, I started making my own website. I found a template called minimal-mistakes that looks nice.  ","categories": [],
         "tags": [],
