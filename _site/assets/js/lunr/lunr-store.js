@@ -29,6 +29,12 @@ var store = [{
         "url": "/website/",
         "teaser": null
       },{
+        "title": "New preprint!",
+        "excerpt":"We just uploaded our newest preprint! Find the paper A convergent adaptive finite element stochastic Galerkin method based on multilevel expansions of random fields on arXiv. If you want to recreate our numerical experiments, you can find our julia code in this repository.  ","categories": [],
+        "tags": [],
+        "url": "/new_preprint/",
+        "teaser": null
+      },{
         "title": "A convergent adaptive finite element stochastic Galerkin method based on multilevel expansions of random fields",
         "excerpt":" ","categories": [],
         "tags": [],
