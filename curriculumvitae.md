@@ -14,8 +14,11 @@ toc_sticky: true
 ## {{ item.title }} 
 
 <div class="cvitem">
-  <div class="cvtime">{{ item.time }} at {{item.institute}}.</div>
+    <span class="cvtime">{{ item.time }}</span> at <span class="cvinstitute"> {{item.institute}}.</span>
+</div>
+<div class="cvitem">
   {% if item.hasthesis %}
+
     {% if item.haslink %}
         <div class="cvthesis">Thesis: <a href="{{item.link}}" >{{ item.thesis }}</a> </div>
     {% else %}
