@@ -5,6 +5,12 @@ var store = [{
         "url": "/website/",
         "teaser": null
       },{
+        "title": "A convergent adaptive finite element stochastic Galerkin method based on multilevel expansions of random fields",
+        "excerpt":" ","categories": [],
+        "tags": [],
+        "url": "/publications/adaptivestochgalfembeev",
+        "teaser": null
+      },{
         "title": "Maximum relative distance between real rank-two and rank-one tensors",
         "excerpt":" ","categories": [],
         "tags": [],
