@@ -4,6 +4,7 @@ author_profile: true
 title: About me
 toc: true
 toc_sticky: true
+noavatar: true
 ---
 
 {% assign publications = site.publications | sort: "year" | reverse %}

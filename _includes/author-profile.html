@@ -2,7 +2,7 @@
 {% assign author = site.data.authors[author] | default: author %}
 
 <div itemscope itemtype="https://schema.org/Person" class="h-card">
-
+  {% unless page.noavatar %}
   {% if author.avatar %}
     <div class="author__avatar">
       <a href="{{ author.home | default: '/' | absolute_url }}">
@@ -10,6 +10,7 @@
       </a>
     </div>
   {% endif %}
+  {% endunless %}
 
   <div class="author__content">
     <h3 class="author__name p-name" itemprop="name">
