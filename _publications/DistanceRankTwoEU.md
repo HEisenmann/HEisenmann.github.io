@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Maximum relative distance between real rank-two and rank-one tensors
+title: 'Maximum relative distance between real rank-two and rank-one tensors'
 authors: Henrik Eisenmann and André Uschmajew
 journal: Annali di Matematica Pura ed Applicata. Series IV
 volume: 202

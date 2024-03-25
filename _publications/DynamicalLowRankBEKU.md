@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Existence of dynamical low-rank approximations to parabolic problems
+title: 'Existence of dynamical low-rank approximations to parabolic problems'
 authors: Markus Bachmayr, Henrik Eisenmann, Emil Kieri and André Uschmajew
 journal: Mathematics of Computation
 volume: 90

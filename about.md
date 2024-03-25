@@ -51,7 +51,7 @@ Another interesting projects concerns an abstract property of low-rank tensors. 
 ## Personal
 
 <div class="blocked">
-I am currently active in the Handball club Schwarz-Rot Aachen. I am happy with the previous season, where we clinched the third position in the Kreisklassse 2 Aachen/Düren.
+I am currently active in the Handball club Schwarz-Rot Aachen. I am happy with the previous season, where we clinched the third position in the Kreisklasse 1 Aachen/Düren.
 </div>
 <div class="blocked">
 Two years ago, I also started playing chess. It is a very captivating game, and fun for people at multiple levels of expertise.
