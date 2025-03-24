@@ -13,6 +13,9 @@ I want to post some math content, and tried out several options. The following I
 <meta charset='utf-8' /> 
 <meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
 <meta content='width=device-width,initial-scale=1' name='viewport' /> 
+<link href='main.css' rel='stylesheet' type='text/css' /> 
+<meta content='main.tex' name='src' /> 
+ <script async='async' id='MathJax-script' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/mml-chtml.js' type='text/javascript'></script>  
 </head><body>
    <div class='maketitle'>
 
@@ -26,7 +29,7 @@ I want to post some math content, and tried out several options. The following I
 <h3 class='abstracttitle'>
 <span class='cmbx-9'>Abstract</span>
 </h3>
-     <!-- l. 52 --><p class='noindent'><span class='cmr-9'>We provide a proof for a very important cosine identity.</span>
+     <!-- l. 52 --><p class='noindent'><span class='cmr-9'>We provide a proof for a very important sine identity.</span>
 </p>
 </section>
    <div class='newtheorem'>
@@ -82,9 +85,10 @@ We thus get </p><table class='equation'><tr><td>
          <mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup><mo class='MathClass-bin' stretchy='false'>−</mo><mn>1</mn></mrow></mfrac>          </mrow></math>
 where <!-- l. 74 --><math display='inline' xmlns='http://www.w3.org/1998/Math/MathML'><mrow><msub><mrow><mi>T</mi></mrow><mrow><mi>n</mi></mrow></msub><mo class='MathClass-open' stretchy='false'>(</mo><mi class='qopname'>cos</mi><mo> ⁡<!-- FUNCTION APPLICATION --> </mo><!-- nolimits --><mi>𝜃</mi><mo class='MathClass-close' stretchy='false'>)</mo> <mo class='MathClass-rel' stretchy='false'>=</mo><mi class='qopname'> cos</mi><mo> ⁡<!-- FUNCTION APPLICATION --> </mo><!-- nolimits --><mi mathvariant='italic'>n𝜃</mi></mrow></math>
 is the Chebyshev polynomial of first kind. Substituting this into (<a href='#x1-5r3'>3<!-- tex4ht:ref: eq:logderivativeCheb  --></a>), we get
-</p><table class='equation-star'><tr><td>
-<!-- l. 75 --><math class='equation' display='block' xmlns='http://www.w3.org/1998/Math/MathML'><mrow>
-<mtable class='aligned'><mtr><mtd columnalign='right'><mfrac><mrow><msup><mrow><mi>p</mi></mrow><mrow><mi>′</mi></mrow></msup><mo class='MathClass-open' stretchy='false'>(</mo><mi>x</mi><mo class='MathClass-close' stretchy='false'>)</mo></mrow>
+</p><table class='equation'><tr><td>
+<!-- l. 75 --><p class='indent'>
+</p><!-- l. 75 --><math class='equation' display='block' xmlns='http://www.w3.org/1998/Math/MathML'><mrow>
+<mstyle class='label' id='x1-6r4'></mstyle><!-- endlabel --><mtable class='aligned'><mtr><mtd columnalign='right'><mfrac><mrow><msup><mrow><mi>p</mi></mrow><mrow><mi>′</mi></mrow></msup><mo class='MathClass-open' stretchy='false'>(</mo><mi>x</mi><mo class='MathClass-close' stretchy='false'>)</mo></mrow>
 <mrow><mi>p</mi><mo class='MathClass-open' stretchy='false'>(</mo><mi>x</mi><mo class='MathClass-close' stretchy='false'>)</mo></mrow></mfrac> </mtd><mtd columnalign='left'> <mo class='MathClass-rel' stretchy='false'>=</mo>    <mfrac><mrow><mn>1</mn></mrow> 
 <mrow><mi>x</mi> <mo class='MathClass-bin' stretchy='false'>+</mo> <mn>1</mn></mrow></mfrac> <mo class='MathClass-bin' stretchy='false'>+</mo> <mfrac><mrow><mi>n</mi><msub><mrow><mi>T</mi></mrow><mrow><mi>n</mi></mrow></msub><mo class='MathClass-open' stretchy='false'>(</mo><mi>x</mi><mo class='MathClass-close' stretchy='false'>)</mo> <mo class='MathClass-bin' stretchy='false'>−</mo> <mi>x</mi><msub><mrow><mi>U</mi></mrow><mrow><mi>n</mi><mo class='MathClass-bin' stretchy='false'>−</mo><mn>1</mn></mrow></msub><mo class='MathClass-open' stretchy='false'>(</mo><mi>x</mi><mo class='MathClass-close' stretchy='false'>)</mo></mrow> 
   <mrow><mo class='MathClass-open' stretchy='false'>(</mo><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup> <mo class='MathClass-bin' stretchy='false'>−</mo> <mn>1</mn><mo class='MathClass-close' stretchy='false'>)</mo><msub><mrow><mi>U</mi></mrow><mrow><mi>n</mi><mo class='MathClass-bin' stretchy='false'>−</mo><mn>1</mn></mrow></msub><mo class='MathClass-open' stretchy='false'>(</mo><mi>x</mi><mo class='MathClass-close' stretchy='false'>)</mo></mrow></mfrac>  </mtd>    <mtd columnalign='right'></mtd>
@@ -94,17 +98,19 @@ is the Chebyshev polynomial of first kind. Substituting this into (<a href='#x1
        <mrow><mi class='qopname'> sin</mi><mo> ⁡<!-- FUNCTION APPLICATION --> </mo><!-- nolimits --><mi>𝜃</mi><mi class='qopname'>sin</mi><mo> ⁡<!-- FUNCTION APPLICATION --> </mo><!-- nolimits --><mi mathvariant='italic'>n𝜃</mi></mrow></mfrac>      <mo class='MathClass-punc' stretchy='false'>.</mo></mtd>
    </mtr>                                                               </mtable>
 </mrow></math></td></tr></table>
-<!-- l. 82 --><p class='indent'>   We use the following expansion related to the Dirichlet kernel </p><table class='equation-star'><tr><td>
-<!-- l. 83 --><math class='equation' display='block' xmlns='http://www.w3.org/1998/Math/MathML'><mrow>
-          <mfrac><mrow><mi class='qopname'>sin</mi><mo> ⁡<!-- FUNCTION APPLICATION --> </mo><!-- nolimits --><mi mathvariant='italic'>n𝜃</mi></mrow>
+<!-- l. 82 --><p class='indent'>   We use the following expansion related to the Dirichlet kernel </p><table class='equation'><tr><td>
+<!-- l. 83 --><p class='indent'>
+</p><!-- l. 83 --><math class='equation' display='block' xmlns='http://www.w3.org/1998/Math/MathML'><mrow>
+          <mstyle class='label' id='x1-7r4'></mstyle><!-- endlabel --><mfrac><mrow><mi class='qopname'>sin</mi><mo> ⁡<!-- FUNCTION APPLICATION --> </mo><!-- nolimits --><mi mathvariant='italic'>n𝜃</mi></mrow>
  <mrow><mi class='qopname'>sin</mi><mo> ⁡<!-- FUNCTION APPLICATION --> </mo><!-- nolimits --><mi>𝜃</mi></mrow></mfrac> <mo class='MathClass-rel' stretchy='false'>=</mo> <mfrac><mrow><msup><mrow><mi>e</mi></mrow><mrow><mi mathvariant='italic'>in𝜃</mi></mrow></msup> <mo class='MathClass-bin' stretchy='false'>−</mo> <msup><mrow><mi>e</mi></mrow><mrow><mo class='MathClass-bin' stretchy='false'>−</mo><mi mathvariant='italic'>in𝜃</mi></mrow></msup></mrow> 
   <mrow><msup><mrow><mi>e</mi></mrow><mrow><mi mathvariant='italic'>i𝜃</mi></mrow></msup> <mo class='MathClass-bin' stretchy='false'>−</mo> <msup><mrow><mi>e</mi></mrow><mrow><mo class='MathClass-bin' stretchy='false'>−</mo><mi mathvariant='italic'>i𝜃</mi></mrow></msup></mrow></mfrac>   <mo class='MathClass-rel' stretchy='false'>=</mo><munderover accent='false' accentunder='false'><mrow><mo> ∑</mo>
   </mrow><mrow><mi>k</mi><mo class='MathClass-rel' stretchy='false'>=</mo><mn>0</mn></mrow><mrow><mi>n</mi><mo class='MathClass-bin' stretchy='false'>−</mo><mn>1</mn></mrow></munderover><mi class='qopname'> cos</mi><mo> ⁡<!-- FUNCTION APPLICATION --> </mo><!-- nolimits --><mo class='MathClass-open' stretchy='false'>(</mo><mo class='MathClass-open' stretchy='false'>(</mo><mi>n</mi> <mo class='MathClass-bin' stretchy='false'>−</mo> <mn>1</mn> <mo class='MathClass-bin' stretchy='false'>−</mo> <mn>2</mn><mi>k</mi><mo class='MathClass-close' stretchy='false'>)</mo><mi>𝜃</mi><mo class='MathClass-close' stretchy='false'>)</mo><mo class='MathClass-punc' stretchy='false'>.</mo>
 </mrow></math></td></tr></table>
-<!-- l. 86 --><p class='indent'>   Then by applying L’Hôspital’s rule twice, we have </p><table class='equation-star'><tr><td>
+<!-- l. 86 --><p class='indent'>   Then by applying L’Hôspital’s rule twice, we have </p><table class='equation'><tr><td>
+<!-- l. 87 --><p class='indent'>
 
-<!-- l. 87 --><math class='equation' display='block' xmlns='http://www.w3.org/1998/Math/MathML'><mrow>
-<mtable class='aligned'><mtr><mtd columnalign='right'><mfrac><mrow><msup><mrow><mi>p</mi></mrow><mrow><mi>′</mi></mrow></msup><mo class='MathClass-open' stretchy='false'>(</mo><mn>1</mn><mo class='MathClass-close' stretchy='false'>)</mo></mrow>
+</p><!-- l. 87 --><math class='equation' display='block' xmlns='http://www.w3.org/1998/Math/MathML'><mrow>
+<mstyle class='label' id='x1-8r4'></mstyle><!-- endlabel --><mtable class='aligned'><mtr><mtd columnalign='right'><mfrac><mrow><msup><mrow><mi>p</mi></mrow><mrow><mi>′</mi></mrow></msup><mo class='MathClass-open' stretchy='false'>(</mo><mn>1</mn><mo class='MathClass-close' stretchy='false'>)</mo></mrow>
 <mrow><mi>p</mi><mo class='MathClass-open' stretchy='false'>(</mo><mn>1</mn><mo class='MathClass-close' stretchy='false'>)</mo></mrow></mfrac> </mtd><mtd columnalign='left'> <mo class='MathClass-rel' stretchy='false'>=</mo><munder class='msub'><mrow><mi class='qopname'> lim</mi><mo> ⁡<!-- FUNCTION APPLICATION --> </mo></mrow><mrow><mi>𝜃</mi><mo class='MathClass-rel' stretchy='false'>→</mo><mn>0</mn></mrow></munder>       <mfrac><mrow><mn>1</mn></mrow> 
 <mrow><mi class='qopname'>cos</mi><mo> ⁡<!-- FUNCTION APPLICATION --> </mo><!-- nolimits --><mi>𝜃</mi> <mo class='MathClass-bin' stretchy='false'>+</mo> <mn>1</mn></mrow></mfrac> <mo class='MathClass-bin' stretchy='false'>−</mo><mfrac><mrow><mi>n</mi><mi class='qopname'>cos</mi><mo> ⁡<!-- FUNCTION APPLICATION --> </mo><!-- nolimits --><mi mathvariant='italic'>n𝜃</mi> <mo class='MathClass-bin' stretchy='false'>−</mo><mi class='qopname'> cos</mi><mo> ⁡<!-- FUNCTION APPLICATION --> </mo><!-- nolimits --><mi>𝜃</mi><munderover accent='false' accentunder='false'><mrow><mo>∑</mo>
   </mrow><mrow><mi>k</mi><mo class='MathClass-rel' stretchy='false'>=</mo><mn>0</mn></mrow><mrow><mi>n</mi><mo class='MathClass-bin' stretchy='false'>−</mo><mn>1</mn></mrow></munderover><mi class='qopname'> cos</mi><mo> ⁡<!-- FUNCTION APPLICATION --> </mo><!-- nolimits --><mo class='MathClass-open' stretchy='false'>(</mo><mo class='MathClass-open' stretchy='false'>(</mo><mi>n</mi> <mo class='MathClass-bin' stretchy='false'>−</mo> <mn>1</mn> <mo class='MathClass-bin' stretchy='false'>−</mo> <mn>2</mn><mi>k</mi><mo class='MathClass-close' stretchy='false'>)</mo><mi>𝜃</mi><mo class='MathClass-close' stretchy='false'>)</mo></mrow> 
@@ -117,7 +123,8 @@ is the Chebyshev polynomial of first kind. Substituting this into (<a href='#x1
     <mrow><mn>6</mn></mrow></mfrac>     </mtd>
    </mtr>                                                               </mtable>
 </mrow></math></td></tr></table>
-<!-- l. 107 --><p class='indent'>   which together with (<a href='#x1-4r2'>2<!-- tex4ht:ref: eq:logderivative  --></a>) implies (<a href='#x1-3r1'>1<!-- tex4ht:ref: eq:VII  --></a>).                                                 □
+<!-- l. 107 --><p class='indent'>   
+<span>which together with (<a href='#x1-4r2'>2<!-- tex4ht:ref: eq:logderivative  --></a>) implies (<a href='#x1-3r1'>1<!-- tex4ht:ref: eq:VII  --></a>).    </span>                         <span>□  </span>                
 </p>
    </div>
     
