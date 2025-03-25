@@ -7,6 +7,6 @@ volume: 201
 year: 2022
 number: 2
 pages: 2413-2464
-doi: 10.1007/s10231-022-01204-y
-link: https://doi.org/10.1007/s10231-022-01204-y
+arxivlink: https://arxiv.org/abs/2201.04403
+doilink: https://doi.org/10.1007/s10231-022-01204-y
 ---

@@ -7,6 +7,6 @@ volume: Preprint
 year: 2023
 number: 
 pages: 
-doi: 
-link: https://arxiv.org/abs/2308.16720
+arxivlink: https://arxiv.org/abs/2308.16720
+doilink: https://arxiv.org/abs/2308.16720
 ---

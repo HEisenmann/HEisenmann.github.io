@@ -7,6 +7,6 @@ volume: 93
 year: 2023
 number: 2
 pages: 669-693
-doi: 10.1007/s11075-022-01433-5
-link: https://doi.org/10.1007/s11075-022-01433-5
+arxivlink: https://arxiv.org/abs/2103.02356
+doilink: https://doi.org/10.1007/s11075-022-01433-5
 ---

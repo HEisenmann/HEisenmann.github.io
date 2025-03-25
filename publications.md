@@ -9,14 +9,26 @@ toc_sticky: true
 
 {% assign publications = site.publications | sort: "year" | reverse %}
 
+## 2025
+
+{% for pub in publications %}
+{% if {{pub.year}} == 2025 %}
+<div class="pubitem">
+  <div class="pubtitle"><a href="{{pub.link}}" >{{ pub.title }}</a> </div>
+  <div class="pubauthors">{{ pub.authors }}</div>
+  <div class="pubinfo"><a href="{{pub.doilink}}" >{{ pub.journal }} {{pub.volume}}, {{ pub.year}}.</a></div>
+</div>
+{% endif %}
+{% endfor %}
+
 ## 2024
 
 {% for pub in publications %}
 {% if {{pub.year}} == 2024 %}
 <div class="pubitem">
   <div class="pubtitle"><a href="{{pub.link}}" >{{ pub.title }}</a> </div>
-  <div class="pubauthors">{{ pub.authors }};</div>
-  <div class="pubinfo">{{ pub.journal }} {{pub.volume}}, {{ pub.year}}.</div>
+  <div class="pubauthors">{{ pub.authors }}</div>
+  <div class="pubinfo"><a href="{{pub.doilink}}" >{{ pub.journal }} {{pub.volume}}, {{ pub.year}}.</a></div>
 </div>
 {% endif %}
 {% endfor %}
@@ -27,8 +39,8 @@ toc_sticky: true
 {% if {{pub.year}} == 2023 %}
 <div class="pubitem">
   <div class="pubtitle"><a href="{{pub.link}}" >{{ pub.title }}</a> </div>
-  <div class="pubauthors">{{ pub.authors }};</div>
-  <div class="pubinfo">{{ pub.journal }} {{pub.volume}}, {{ pub.year}}.</div>
+  <div class="pubauthors">{{ pub.authors }}</div>
+    <div class="pubinfo"><a href="{{pub.doilink}}" >{{ pub.journal }} {{pub.volume}}, {{ pub.year}}.</a></div>
 </div>
 {% endif %}
 {% endfor %}
@@ -40,9 +52,9 @@ toc_sticky: true
 {% if {{pub.year}} == 2022 %}
 <div class="pubitem">
   <div class="pubtitle"><a href="{{pub.link}}" >{{ pub.title }}</a> </div>
-  <div class="pubauthors">{{ pub.authors }};</div>
-  <div class="pubinfo">{{ pub.journal }} {{pub.volume}}, {{ pub.year}}.</div>
-</div>
+  <div class="pubauthors">{{ pub.authors }}</div>
+  <div class="pubinfo"><a href="{{pub.doilink}}" >{{ pub.journal }} {{pub.volume}}, {{ pub.year}}.</a></div>
+  </div>
 {% endif %}
 {% endfor %}
 
@@ -52,9 +64,9 @@ toc_sticky: true
 {% for pub in publications %}
 {% if {{pub.year}} == 2021 %}
 <div class="pubitem">
-  <div class="pubtitle"><a href="{{pub.link}}" >{{ pub.title }}</a> </div>
-  <div class="pubauthors">{{ pub.authors }};</div>
-  <div class="pubinfo">{{ pub.journal }} {{pub.volume}}, {{ pub.year}}.</div>
+  <div class="pubtitle"><a href="{{pub.arxivlink}}" >{{ pub.title }}</a> </div>
+  <div class="pubauthors">{{ pub.authors }}</div>
+  <div class="pubinfo"><a href="{{pub.doilink}}" >{{ pub.journal }} {{pub.volume}}, {{ pub.year}}.</a></div>
 </div>
 {% endif %}
 {% endfor %}

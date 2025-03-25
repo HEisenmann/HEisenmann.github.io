@@ -7,6 +7,6 @@ volume: Preprint
 year: 2024
 number: 
 pages: 
-doi: 
-link: https://arxiv.org/abs/2403.13770
+arxivlink: https://arxiv.org/abs/2403.13770
+doilink: https://arxiv.org/abs/2403.13770
 ---

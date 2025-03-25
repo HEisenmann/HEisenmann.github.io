@@ -7,6 +7,6 @@ volume: 76
 year: 2021
 number: 2
 pages: 337-353
-doi: 10.4418/2021.76.2.3
-link: https://doi.org/10.4418/2021.76.2.3
+arxivlink: https://arxiv.org/abs/2010.00277
+doilink: https://doi.org/10.4418/2021.76.2.3
 ---
