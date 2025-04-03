@@ -14,7 +14,7 @@ toc_sticky: true
 {% for pub in publications %}
 {% if {{pub.year}} == 2025 %}
 <div class="pubitem">
-  <div class="pubtitle"><a href="{{pub.link}}" >{{ pub.title }}</a> </div>
+  <div class="pubtitle"><a href="{{pub.arxivlink}}" >{{ pub.title }}</a> </div>
   <div class="pubauthors">{{ pub.authors }}</div>
   <div class="pubinfo"><a href="{{pub.doilink}}" >{{ pub.journal }} {{pub.volume}}, {{ pub.year}}.</a></div>
 </div>
@@ -26,7 +26,7 @@ toc_sticky: true
 {% for pub in publications %}
 {% if {{pub.year}} == 2024 %}
 <div class="pubitem">
-  <div class="pubtitle"><a href="{{pub.link}}" >{{ pub.title }}</a> </div>
+  <div class="pubtitle"><a href="{{pub.arxivlink}}" >{{ pub.title }}</a> </div>
   <div class="pubauthors">{{ pub.authors }}</div>
   <div class="pubinfo"><a href="{{pub.doilink}}" >{{ pub.journal }} {{pub.volume}}, {{ pub.year}}.</a></div>
 </div>
@@ -38,7 +38,7 @@ toc_sticky: true
 {% for pub in publications %}
 {% if {{pub.year}} == 2023 %}
 <div class="pubitem">
-  <div class="pubtitle"><a href="{{pub.link}}" >{{ pub.title }}</a> </div>
+  <div class="pubtitle"><a href="{{pub.arxivlink}}" >{{ pub.title }}</a> </div>
   <div class="pubauthors">{{ pub.authors }}</div>
     <div class="pubinfo"><a href="{{pub.doilink}}" >{{ pub.journal }} {{pub.volume}}, {{ pub.year}}.</a></div>
 </div>
@@ -51,7 +51,7 @@ toc_sticky: true
 {% for pub in publications %}
 {% if {{pub.year}} == 2022 %}
 <div class="pubitem">
-  <div class="pubtitle"><a href="{{pub.link}}" >{{ pub.title }}</a> </div>
+  <div class="pubtitle"><a href="{{pub.arxivlink}}" >{{ pub.title }}</a> </div>
   <div class="pubauthors">{{ pub.authors }}</div>
   <div class="pubinfo"><a href="{{pub.doilink}}" >{{ pub.journal }} {{pub.volume}}, {{ pub.year}}.</a></div>
   </div>
