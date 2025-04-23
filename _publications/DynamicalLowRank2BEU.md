@@ -4,9 +4,9 @@ title: 'Dynamical low-rank tensor approximations to high-dimensional parabolic p
 authors: Markus Bachmayr, Henrik Eisenmann and André Uschmajew
 journal: Arxiv 
 volume: Preprint
-year: 2023
+year: 2025
 number: 
 pages: 
 arxivlink: https://arxiv.org/abs/2308.16720
-doilink: https://arxiv.org/abs/2308.16720
+doilink: http://doi.org/10.1007/s00211-025-01465-8
 ---
