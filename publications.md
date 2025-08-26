@@ -21,7 +21,7 @@ toc_sticky: true
 {% endif %}
 {% endfor %}
 
-## 2024
+<!-- ## 2024
 
 {% for pub in publications %}
 {% if {{pub.year}} == 2024 %}
@@ -31,7 +31,7 @@ toc_sticky: true
   <div class="pubinfo"><a href="{{pub.doilink}}" >{{ pub.journal }} {{pub.volume}}, {{ pub.year}}.</a></div>
 </div>
 {% endif %}
-{% endfor %}
+{% endfor %} -->
 
 ## 2023
 
