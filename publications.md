@@ -9,6 +9,18 @@ toc_sticky: true
 
 {% assign publications = site.publications | sort: "year" | reverse %}
 
+## 2026
+
+{% for pub in publications %}
+{% if {{pub.year}} == 2026 %}
+<div class="pubitem">
+  <div class="pubtitle"><a href="{{pub.arxivlink}}" >{{ pub.title }}</a> </div>
+  <div class="pubauthors">{{ pub.authors }}</div>
+  <div class="pubinfo"><a href="{{pub.doilink}}" >{{ pub.journal }} {{pub.volume}}, {{ pub.year}}.</a></div>
+</div>
+{% endif %}
+{% endfor %}
+
 ## 2025
 
 {% for pub in publications %}
